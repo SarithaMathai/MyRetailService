@@ -54,9 +54,9 @@ For this POC work, I developed two RESTful services.
                      <value>7650.5</value>
                   </productPrice>
           </productItem>
-`
-**JSON:**
-`code()
+`  
+**JSON:**  
+`code()  
 {
   "prodId": "2",
   "prodName": "The Small Boat (Blu-ray) (Crossscreen)",
