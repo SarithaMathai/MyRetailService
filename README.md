@@ -41,61 +41,61 @@ For this POC work, I developed two RESTful services.
          * HTTP Status Code: 400 – Bad Request
          * HTTP Status Code 500 – Internal Server Error
 
-     **Sample Response data:**
-      **XML:** 
-      `code()
-            <?xml version="1.0" ?>
-           <productItem>
-                 <prodId>2</prodId>
+     **Sample Response data:**  
+      **XML:**   
+      `code()  
+            <?xml version="1.0" ?>  
+           <productItem>  
+                 <prodId>2</prodId>  
                  <prodName>The Small Boat (Blu-ray)     
-                           (Crossscreen)</prodName>
-                  <productPrice>
-                      <currencyCode>USD</currencyCode>
-                     <value>7650.5</value>
-                  </productPrice>
-          </productItem>
-`  
-**JSON:**  
-`code()  
+                           (Crossscreen)</prodName>  
+                  <productPrice>  
+                      <currencyCode>USD</currencyCode>  
+                     <value>7650.5</value>  
+                  </productPrice>  
+          </productItem>  
+`    
+**JSON:**    
+`code()    
 {
-  "prodId": "2",
-  "prodName": "The Small Boat (Blu-ray) (Crossscreen)",
-  "productPrice": {
-    "currencyCode": "USD",
-    "value": "7650.5"
-  }
-}
-`
+  "prodId": "2",  
+  "prodName": "The Small Boat (Blu-ray) (Crossscreen)",  
+  "productPrice": {  
+    "currencyCode": "USD",  
+    "value": "7650.5"  
+  }  
+}  
+`  
 * This RESTful service 
    * Accepts an HTTP PUT request to update the pricing information and returns the updated product data in JSON or XML format.
     * REST Endpoint:  http://localhost:9080/MyRetailService/products/v1
     * Version: v1
     * **Request Type: HTTP PUT**    
-     * **Sample Request data:**
-        * Request Input: JSON
-      `code()
+     * **Sample Request data:**  
+        * Request Input: JSON  
+      `code()  
 {
   "prodId": "2",  
-  "productPrice": {
-    "currencyCode": "USD",
-    "value": "3675.50"
-  }
-}
-`
-     * **Sample Response data:**
+  "productPrice": {  
+    "currencyCode": "USD",  
+    "value": "3675.50"  
+  }  
+}  
+`  
+     * **Sample Response data:**  
         * Response data: JSON      
-           `code()
-                {
-                  "prodId": "2",
+           `code()  
+                {  
+                  "prodId": "2",  
                   "prodName": "The Small Boat (Blu-ray) (Crossscreen)",
-                  "productPrice": {
-                  "currencyCode": "USD",
-                  "value": "3675.5"
-                }
-              }
-`
-     * Request Input: JSON
-      * HTTP Header:
+                  "productPrice": {  
+                  "currencyCode": "USD",  
+                  "value": "3675.5"  
+                }  
+              }  
+`  
+     * Request Input: JSON  
+      * HTTP Header:  
              * Accept=application/json
              * Content-Type=application/json
        * Response Code:
