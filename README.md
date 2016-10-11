@@ -264,7 +264,7 @@ There are 3 modules developed for this proto type.
    * HSQLDB (Relational Database):   
       *  Run the hsqldb server.  
            * C:\hsqldb\productdb>runServer.bat  
-                * The runServer.bat batch file contains the productdb DDL script to create the database, create Product and Product_Detail tables and insert records into them. 
+                * The runServer.bat batch file contains the productdb DDL and DML scripts to create the database, create Product and Product_Detail tables and insert records into them. 
       * Run the hsqldb swing application to connect to hsqldb database with interactive sqltool.
            * C:\hsqldb\productdb>runManagerSwing.bat    
 	   
