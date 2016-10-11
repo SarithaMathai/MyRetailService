@@ -38,24 +38,4 @@ public class ProductDetailsProcessor {
         addToProductItem(prod, json);
         return prod;
     }
-
-    /**
-     * Helper method that builds the product item from the JSON Response.
-     * 
-     * @param prod
-     * @param json
-     * @throws JSONException
-     */
-    public void addToProductItem(ProductDetailsItem prod, JSONObject json) throws JSONException {
-        if (json.has(TableColumnUtils.PROD_ID)) {
-            prod.setProdId(json.getInt(TableColumnUtils.PROD_ID));
-        }
-
-        if (json.has(TableColumnUtils.PROD_CATEGORY)) {
-            prod.setProdCategory(json.getString(TableColumnUtils.PROD_CATEGORY));
-        }
-        if (json.has(TableColumnUtils.PROD_NAME)) {
-            prod.setProdName(json.getString(TableColumnUtils.PROD_NAME));
-        }
-    }
 }
