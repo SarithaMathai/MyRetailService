@@ -136,7 +136,7 @@ For this POC work, I developed two RESTful services.
       ``` 
            {
                "prodCategory": "TV",
-               "prodCategory": "TV",
+               "prodId": "1",
                "prodName": "The Big Lebowski (Blu-ray) (Widescreen)"               
             }
       ``` 
