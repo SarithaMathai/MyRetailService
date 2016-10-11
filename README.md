@@ -292,4 +292,5 @@ There are 3 modules developed for this proto type.
 ![myretailservice - http put](https://cloud.githubusercontent.com/assets/22694707/19258794/ffbdb26e-8f40-11e6-9193-9aaf1d118856.png)
 
 #### ProductDetailServices - HTTP GET:
-![productdetailservice - http get](https://cloud.githubusercontent.com/assets/22694707/19258795/025e535c-8f41-11e6-847f-c58dad1cac6b.png)
+![productdetailservice - http get](https://cloud.githubusercontent.com/assets/22694707/19258856/a99fdf32-8f41-11e6-8269-63aa5fed6804.png)
+
