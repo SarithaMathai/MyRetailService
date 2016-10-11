@@ -162,10 +162,8 @@ There are 3 modules developed for this proto type.
      * An external API exposed as a RESTful service to return the Product Details information in JSON or XML format.  
 
 **Packages:**  
-      * com.retail.product.details.entity   
-              - Defines the resources   
-      * com.retail.product.details.rest.services   
-              - Rest end point and controller                    
+      * com.retail.product.details.entity - Defines the resources   
+      * com.retail.product.details.rest.services - Rest end point and controller                    
       * com.retail.product.details.processor:  
               - Processors to process the request. This includes calling appropriate database methods, do necessary computing and send the product information to the rest controller.  
 
