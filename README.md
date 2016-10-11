@@ -150,9 +150,9 @@ There are 3 modules developed for this proto type.
      * The purpose of this module is to act as a JPA layer and is responsible for connecting to the database and return in JSON data structure. This is a rudimentary implementation to prove the concept and to add right abstraction to separate the responsibilities.
 
 **Packages:**  
-     * com.retail.common - Contains utility classes required for data operation. 
+     * com.retail.common - Contains utility classes required for data operation.  
      * com.retail.common.dataservices –   
-             * Database factory and implementation that performs database CRUD                                         operation.  
+             * Database factory and implementation that performs database CRUD operation.  
 
 **Pattern Used:**  
       * Factory Pattern  
