@@ -285,12 +285,11 @@ There are 3 modules developed for this proto type.
 
 
 ## Sequence Diagram: 
-
 #### MyRetailService - HTTP GET:
-![myretailservice - http get](https://cloud.githubusercontent.com/assets/22694707/19258626/25031732-8f3f-11e6-97ce-7373072b12c5.png)
+![myretailservice - http get](https://cloud.githubusercontent.com/assets/22694707/19258796/04738694-8f41-11e6-8839-418627626294.png)
 
 #### MyRetailService - HTTP PUT:
-![myretailservice - http put](https://cloud.githubusercontent.com/assets/22694707/19258624/236f4f9e-8f3f-11e6-9196-1b88cf9b1175.png)
+![myretailservice - http put](https://cloud.githubusercontent.com/assets/22694707/19258794/ffbdb26e-8f40-11e6-9193-9aaf1d118856.png)
 
 #### ProductDetailServices - HTTP GET:
-![productdetailservice - http get](https://cloud.githubusercontent.com/assets/22694707/19258628/27db1d88-8f3f-11e6-81c9-a0c4c3a7950b.png)
+![productdetailservice - http get](https://cloud.githubusercontent.com/assets/22694707/19258795/025e535c-8f41-11e6-847f-c58dad1cac6b.png)
