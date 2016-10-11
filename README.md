@@ -34,8 +34,8 @@ For this POC work, I developed two RESTful services.
    * Request Input : None
    * Response Output Data: JSON
    * HTTP Header:
-         * Accept=application/json 
-         * Content-Type=application/json
+         * Accept=application/json (or) application/xml
+         * Content-Type=application/json (or) application/xml
     * Response Code:
          * HTTP Status Code: 200 – Success
          * HTTP Status Code: 400 – Bad Request
