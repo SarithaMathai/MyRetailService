@@ -151,8 +151,7 @@ There are 3 modules developed for this proto type.
 
 **Packages:**  
      * com.retail.common - Contains utility classes required for data operation.  
-     * com.retail.common.dataservices –  
-                          Database factory and implementation that performs database CRUD operation.  
+     * com.retail.common.dataservices – Database factory and implementation that performs database CRUD operation.  
 
 **Pattern Used:**  
       * Factory Pattern  
