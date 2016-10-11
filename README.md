@@ -94,8 +94,8 @@ For this POC work, I developed two RESTful services.
 	```
      * Request Input: JSON  
       * HTTP Header:  
-             * Accept=application/json
-             * Content-Type=application/json
+             * Accept=application/json (or) application/xml
+             * Content-Type=application/json (or) application/xml
        * Response Code:
               * HTTP Status Code: 200 – Success
               * HTTP Status Code: 400 – Bad Request
@@ -112,8 +112,8 @@ For this POC work, I developed two RESTful services.
    * Request Input : None
    * Response Output Data: JSON
    * HTTP Header:
-         * Accept=application/json
-         * Content-Type=application/json
+         * Accept=application/json (or) application/xml
+         * Content-Type=application/json (or) application/xml
     * Response Code:
           * HTTP Status Code: 200 – Success
           * HTTP Status Code: 400 – Bad Request
@@ -252,9 +252,9 @@ There are 3 modules developed for this proto type.
 ## Deployment instructions:  
     
    * Stop the Tomcat server.  
-   * Deploy the MyJPAProvider.jar file into Tomcat container.     
-   * Deploy the ProductDetailServices.war file into Tomcat container.    
-   * Deploy the MyRetailService.war file into Tomcat container.  
+   * Deploy the MyJPAProvider.jar file into Tomcat web container.     
+   * Deploy the ProductDetailServices.war file into Tomcat web container.    
+   * Deploy the MyRetailService.war file into Tomcat web container.  
    * Start the Tomcat server.      
 
 ## Database setup instructions:  
