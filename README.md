@@ -276,7 +276,7 @@ There are 3 modules developed for this proto type.
 		          * >use productdb  
                      * To insert records into MongoDB                    
                      * db.product.insertMany([{prod_id:1,current_price:1500.50,currency:"USD"},{prod_id:2,current_price:2600.25,currency:"USD"},{prod_id:3,current_price:3800.75,currency:"USD"}])
-                     * db.product.find() – to retrieve the records from product collection/table.  ddddddd
+                     * db.product.find() – to retrieve the records from product collection/table.  
 
 ## Class Diagram:  
 
