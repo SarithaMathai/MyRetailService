@@ -72,27 +72,25 @@ For this POC work, I developed two RESTful services.
     * **Request Type: HTTP PUT**    
      * **Sample Request data:**  
         * Request Input: JSON  
-      ``` 
-      {
-        "prodId": "2",  
-        "productPrice": {  
-          "currencyCode": "USD",  
-          "value": "3675.50"  
-        }  
-      }  
-      ```   
-     * **Sample Response data:**  
-        * Response data: JSON      
-      ``` 
-      {  
-        "prodId": "2",  
-        "prodName": "The Small Boat (Blu-ray) (Crossscreen)",
-        "productPrice": {  
+
+       {
+         "prodId": "2",  
+         "productPrice": {  
            "currencyCode": "USD",  
-           "value": "3675.5"  
+           "value": "3675.50"  
          }  
-      }  
-      ``` 
+       }  
+
+     * **Sample Response data:**  
+        * Response data: JSON   - returns the refreshed product instance after update.   
+       {
+         "prodId": "2",  
+         "productPrice": {  
+           "currencyCode": "USD",  
+           "value": "3675.50"  
+         }  
+       }  
+
      * Request Input: JSON  
       * HTTP Header:  
              * Accept=application/json
