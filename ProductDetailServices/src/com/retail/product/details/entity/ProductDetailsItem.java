@@ -46,4 +46,16 @@ public class ProductDetailsItem {
     public ProductDetailsItem() {
 
     }
+    public void addToProductItem(JSONObject json) throws JSONException {
+        if (json.has(TableColumnUtils.PROD_ID)) {
+            setProdId(json.getInt(TableColumnUtils.PROD_ID));
+        }
+
+        if (json.has(TableColumnUtils.PROD_CATEGORY)) {
+            setProdCategory(json.getString(TableColumnUtils.PROD_CATEGORY));
+        }
+        if (json.has(TableColumnUtils.PROD_NAME)) {
+            setProdName(json.getString(TableColumnUtils.PROD_NAME));
+        }
+    }
 }
