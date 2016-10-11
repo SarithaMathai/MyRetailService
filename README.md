@@ -284,13 +284,13 @@ There are 3 modules developed for this proto type.
 
 
 
-## Sequence Diagram:  
+## Sequence Diagram: 
 
 #### MyRetailService - HTTP GET:
-![myretailservice-get-](https://cloud.githubusercontent.com/assets/22694707/19227505/684c979e-8e80-11e6-802a-d1d75a62c614.png)
+![myretailservice - http get](https://cloud.githubusercontent.com/assets/22694707/19258626/25031732-8f3f-11e6-97ce-7373072b12c5.png)
 
 #### MyRetailService - HTTP PUT:
-![myretailservice-put](https://cloud.githubusercontent.com/assets/22694707/19227507/6b083dd0-8e80-11e6-9442-67bfa9b8142a.png)
+![myretailservice - http put](https://cloud.githubusercontent.com/assets/22694707/19258624/236f4f9e-8f3f-11e6-9196-1b88cf9b1175.png)
 
 #### ProductDetailServices - HTTP GET:
-![productdetailservices-get](https://cloud.githubusercontent.com/assets/22694707/19227056/c75ca5fa-8e79-11e6-96c2-d7807dd754cd.png)
+![productdetailservice - http get](https://cloud.githubusercontent.com/assets/22694707/19258628/27db1d88-8f3f-11e6-81c9-a0c4c3a7950b.png)
