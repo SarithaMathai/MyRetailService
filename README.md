@@ -45,6 +45,18 @@ For this POC work, I developed two RESTful services.
          * HTTP Status Code 500 – Internal Server Error
 
      **Sample Response data:**  
+     
+      **JSON:**    
+      ```  
+      {
+        "prodId": "2",  
+        "prodName": "The Small Boat (Blu-ray) (Crossscreen)",  
+        "productPrice": {  
+          "currencyCode": "USD",  
+          "value": "7650.5"  
+        }  
+      }  
+      ``` 
       **XML:**   
       ```
 	  <?xml version="1.0" ?>
@@ -57,17 +69,7 @@ For this POC work, I developed two RESTful services.
 	    </productPrice>
 	  </productItem>
       ``` 
-      **JSON:**    
-      ```  
-      {
-        "prodId": "2",  
-        "prodName": "The Small Boat (Blu-ray) (Crossscreen)",  
-        "productPrice": {  
-          "currencyCode": "USD",  
-          "value": "7650.5"  
-        }  
-      }  
-      ``` 
+
 * This RESTful service 
    * Accepts an HTTP PUT request to update the pricing information and returns the updated product data in JSON or XML format.
     * REST Endpoint:  http://localhost:9080/MyRetailService/products/v1
