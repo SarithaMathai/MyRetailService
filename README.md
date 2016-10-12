@@ -17,6 +17,8 @@ MyRetail is a rapidly growing company with HQ in Richmond, VA and over 200 store
 - Relational database – HSQL DB
 - Apache Tomcat 8
 - Git
+- eclipse Luna IDE
+- eclipse RESTClient plugin
 
 ## High Level Design:
 For this POC work, I developed two RESTful services.
