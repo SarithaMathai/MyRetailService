@@ -19,6 +19,7 @@ MyRetail is a rapidly growing company with HQ in Richmond, VA and over 200 store
 - Git
 - eclipse Luna IDE
 - eclipse RESTClient plugin
+- log4j
 
 ## High Level Design:
 For this POC work, I developed two RESTful services.
