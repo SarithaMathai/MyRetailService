@@ -91,7 +91,7 @@ For this POC work, I developed two RESTful services.
 	```
        {
          "prodId": "2",  
-	 "prodName": "The Small Boat (Blu-ray) (Crossscreen)",  
+         "prodName": "The Small Boat (Blu-ray) (Crossscreen)",  
          "productPrice": {  
            "currencyCode": "USD",  
            "value": "3675.50"  
