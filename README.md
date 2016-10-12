@@ -30,8 +30,8 @@ For this POC work, I developed two RESTful services.
 
   * Responds to a product inquiry request for the input product id using HTTP GET and return the product data in JSON or XML format.
   * Read the pricing information from the NoSQL data store - MongoDB.
-  * Calls an external API(http://localhost:9080/ProductDetailServices/productdetail/v1/1) to retrieve the product name and attaches it to the myRetailService’s product data response.
-  * REST Endpoint: http://localhost:9080/MyRetailService/products/v1/1
+  * Calls an external API(http://localhost:9080/ProductDetailServices/productdetail/v1/{id}) to retrieve the product name and attaches it to the myRetailService’s product data response.
+  * REST Endpoint: http://localhost:9080/MyRetailService/products/v1/{id}
    * Version: v1
    * **Request Type: HTTP GET**
    * Request Input : None
@@ -111,7 +111,7 @@ For this POC work, I developed two RESTful services.
 * This RESTful service:   
 
    * Retrieves the product name from the relational database - HSQL DB for the given product id in JSON or XML format using HTTP GET.
-   * REST endpoint - http://localhost:9080/ProductDetailServices/productdetail/v1/1.
+   * REST endpoint - http://localhost:9080/ProductDetailServices/productdetail/v1/{id}.
    * Version: v1
    * **Request Type: HTTP GET**  
    * Request Input : None
