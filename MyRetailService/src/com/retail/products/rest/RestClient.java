@@ -1,5 +1,6 @@
 package com.retail.products.rest;
 
+import org.apache.log4j.Logger;
 import org.json.JSONObject;
 
 import com.sun.jersey.api.client.Client;
@@ -10,37 +11,35 @@ import com.sun.jersey.api.client.WebResource;
  * Convenient class to make a rest call and return data in JSON format
  */
 public class RestClient {
+	final static Logger logger = Logger.getLogger(RestClient.class.getName());
 
-    /**
-     * Helper method that makes rest call and return data in JSON format
-     * 
-     * @param restAPIUrl
-     *            - url to invoke
-     * @return
-     */
-    public static JSONObject executeRestCall(String restAPIUrl) {
-        JSONObject object;
-        try {
+	/**
+	 * Helper method that makes rest call and return data in JSON format
+	 * 
+	 * @param restAPIUrl
+	 *            - url to invoke
+	 * @return
+	 */
+	public static JSONObject executeRestCall(String restAPIUrl) {
+		JSONObject object;
 
-            Client client = Client.create();
-            WebResource webResource = client.resource(restAPIUrl);
-            ClientResponse response = webResource.accept("application/json").get(ClientResponse.class);
+		try {
+			Client client = Client.create();
+			WebResource webResource = client.resource(restAPIUrl);
+			ClientResponse response = webResource.accept("application/json").get(ClientResponse.class);
 
-            if (response.getStatus() != 200) {
-                System.out.println("Failed HTTP error code = " + response.getStatus());
-            }
+			if (response.getStatus() != 200) {
+				logger.error("Failed HTTP error code = " + response.getStatus());
+			}
 
-            String output = response.getEntity(String.class);
-            //System.out.println("\n============ getProductDetail Response ============");
-            //System.out.println(output);
+			String output = response.getEntity(String.class);
 
-            object = new JSONObject(output);
-            return object;
+			object = new JSONObject(output);
+			return object;
 
-        } catch (Exception exp) {
-            System.out.println("Malformed URL Exception encountered !!!");
-            exp.printStackTrace();        
-        }
-        return null;
-    }
+		} catch (Exception exp) {
+			logger.error("Malformed URL Exception encountered !!!",exp);
+		}
+		return null;
+	}
 }
