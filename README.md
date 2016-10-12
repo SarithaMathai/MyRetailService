@@ -258,7 +258,7 @@ There are 3 modules developed for this proto type.
    * Start the Tomcat server.      
 
 ## Database setup instructions:  
-   * HSQLDB (Relational Database):   
+   * **HSQLDB (Relational Database):**     
       *  Run the hsqldb server.  
            * C:\hsqldb\productdb>runServer.bat  
                 * The runServer.bat batch file contains the productdb DDL and DML scripts to create the database, create Product and Product_Detail tables and insert records into them. 
@@ -267,7 +267,8 @@ There are 3 modules developed for this proto type.
 	   
 	   ![hsqldb-screenshot](https://cloud.githubusercontent.com/assets/22694707/19227048/a347f66a-8e79-11e6-96b1-04431bf3f3f7.png)
 
- * MongoDB (NoSQL database):     
+
+   * **MongoDB (NoSQL database):**       
       *  Run the MongoDB server.  
               *	C:\Program Files\MongoDB\Server\3.2\bin>mongod.exe --config c:\mongodb\mongo.config
       *  Connect to MongoDB 
