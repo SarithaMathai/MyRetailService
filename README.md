@@ -11,7 +11,6 @@ MyRetail is a rapidly growing company with HQ in Richmond, VA and over 200 store
 
 - Java (JDK 8)
 - RESTful service using Jersey framework
-- REST Client
 - Maven 3
 - No SQL data store – MongoDB
 - Relational database – HSQL DB
@@ -19,6 +18,7 @@ MyRetail is a rapidly growing company with HQ in Richmond, VA and over 200 store
 - Git
 - eclipse Luna IDE
 - eclipse RESTClient plugin
+- ARC (Advanced REST Client) Chrome plugin 
 - log4j
 
 ## High Level Design:
