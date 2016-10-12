@@ -126,6 +126,14 @@ For this POC work, I developed two RESTful services.
 
  **Sample Response data:**
 
+      **JSON:**
+      ``` 
+           {
+               "prodCategory": "TV",
+               "prodId": "1",
+               "prodName": "The Big Lebowski (Blu-ray) (Widescreen)"               
+            }
+      ``` 
       **XML:** 
       ``` 
             <?xml version="1.0" ?>
@@ -137,14 +145,6 @@ For this POC work, I developed two RESTful services.
              </productDetailsItem>
       ``` 
 
-      **JSON:**
-      ``` 
-           {
-               "prodCategory": "TV",
-               "prodId": "1",
-               "prodName": "The Big Lebowski (Blu-ray) (Widescreen)"               
-            }
-      ``` 
 ## Modules and Packaging Structure:
 
 There are 3 modules developed for this proto type.
