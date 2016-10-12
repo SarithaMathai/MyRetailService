@@ -35,7 +35,7 @@ For this POC work, I developed two RESTful services.
    * Version: v1
    * **Request Type: HTTP GET**
    * Request Input : None
-   * Response Output Data: JSON
+   * Response Output Data: JSON / XML
    * HTTP Header:
          * Accept=application/json (or) application/xml
          * Content-Type=application/json (or) application/xml
